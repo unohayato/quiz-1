@@ -141,14 +141,15 @@ body::after {
 .quiz-head {
   text-align: center;
   width: 100%;
-  text-align: left;
-  padding-left: 20%;
+  text-align: center;
+
 
 }
 .quiz-sentence {
   text-align: center;
   width: 100%;
-  text-align: left;
+  text-align: center;
+
   padding-left: 20%;
   padding-right: 20%;
   
