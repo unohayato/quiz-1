@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/*初期化*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+
+/*全体適応*/
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(114, 197, 89), rgb(23, 177, 143));
+}
+
+.header {
+
+}
+
+.header-contents {
+ display: flex;
+ justify-content: space-around;
+ 
+}
+
+.num-quiz {
+
+}
+
+.name {
+
+}
+
+.score {
+
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.timer {
+
+}
