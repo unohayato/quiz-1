@@ -13,10 +13,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffcf0e;
+  background-color:rgba(250, 100, 100, 0.5);
   overflow: hidden;
   min-height: 100vh;
   min-width: 100vh;
+
+  color: rgba( 255, 255, 255, 0.5);
+
+
 }
 
 /*背景半円*/
@@ -40,7 +44,9 @@ body::after {
   clip-path: circle(45.4% at 90% 100%);
   z-index: -1;
 }
+
 */
+
 
 .quiz {
 
@@ -109,6 +115,7 @@ body::after {
 
 }
 .timer {
+
 
 }
 
@@ -251,7 +258,8 @@ body::after {
   font-size: 1.5rem;
 }
 .choices input:checked+label{
-  background: rgba(255, 255, 215, 0.8);
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
 
 
   
