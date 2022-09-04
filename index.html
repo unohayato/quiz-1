@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="choices">
+    <input type="radio" checked id="a" name="choice"><label for="a"> A: ジョージ・マロリー</label>
+    <input type="radio" checked id="b" name="choice"><label for="b"> B: 植村直己</label>
+    <input type="radio" checked id="c" name="choice"><label for="c"> C: ニルマル・プルジャ</label>
+    <input type="radio" checked id="d" name="choice"><label for="d"> D: 野口健</label>
+  </div>
+  
+  <style>
+    /*初期化*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
+}
+
+/*全体適応*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffcf0e;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+    .choices {
+      margin-top: 5%;
+      display: flex; /* flexbox */
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; /* 折返し指定 */
+      height: 60%;
+    
+      border-radius: 15px;
+      box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+      background: rgba( 255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+    }
+    .choices label{
+      width: 50%;
+      text-align: center;
+      padding-top: 5%;
+    
+      border-radius: 15px;
+      box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+      background: rgba( 255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+
+      width: 35%;
+      height: 35%;
+      margin-right: 2.5%;
+      font-size: 1.2rem;
+    }
+    .choices input:checked+label{
+      background: rgba(255, 255, 215, 0.5);
+
+
+      
+    }
+
+    .choices input{
+        display: none;
+    }
+
+    
+
+  </style>
+</body>
+</html>

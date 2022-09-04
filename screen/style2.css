@@ -61,22 +61,36 @@ body::after {
 
 .header-contents {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-evenly;
   height: 80%;
+  text-align: center;
+
+
 
 
 }
 
 .num-quiz {
+  font-size: 3rem;
+
+  text-align: center;
 
 }
 
 .name {
+  font-size: 4rem;
+
+  text-align: center;
+
 
 }
 
 .score {
+  text-align: center;
+  font-size: 3rem;
+
+  text-align: center;
 
 }
 
@@ -102,12 +116,10 @@ body::after {
   height: 70%;
 }
 
-.result-wrapper {
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 15%;
+.correct-result-wrapper {
+  margin-right: 100px;
+  height: 85vh;
+  margin-bottom: 5vh;
 
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
@@ -116,9 +128,42 @@ body::after {
 
 }
 
-.result {
-  text-align: center;
+.correct-result {
+
+  font-size: 2rem;
+
 }
+.result-correctly {
+
+  font-size: 2rem;
+
+}
+
+.incorrect-result-wrapper {
+  
+  margin-left: 100px;
+  height: 85vh;
+  margin-bottom: 5vh;
+
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+  background: rgba( 255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+
+}
+
+.incorrect-result {
+
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.result-incorrectly{
+  font-size: 2rem;
+}
+
+
 
 .quiz-sentence-wrapper {
 
@@ -127,7 +172,7 @@ body::after {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap; /* 折返し指定 */
-  height: 15%;
+  height: 30%;
 
   border-radius: 15px;
   box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
@@ -142,6 +187,9 @@ body::after {
   text-align: center;
   width: 100%;
   text-align: center;
+  font-size: 2rem;
+
+
 
 
 }
@@ -149,9 +197,12 @@ body::after {
   text-align: center;
   width: 100%;
   text-align: center;
+  font-size: 1.5rem;
 
   padding-left: 20%;
   padding-right: 20%;
+
+
   
 }
 
@@ -176,26 +227,48 @@ body::after {
 
 .choices div {
   width: 50%;
-  text-align: left;
-  padding-left: 20%;
+  text-align: center;
+  padding-top: 5%;
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+  background: rgba( 255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
-#a {
+.choices label{
+  width: 50%;
+  text-align: center;
+  padding-top: 5%;
+
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
+  background: rgba( 255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  width: 35%;
+  height: 35%;
+  margin-right: 2.5%;
+  font-size: 1.5rem;
+}
+.choices input:checked+label{
+  background: rgba(255, 255, 215, 0.8);
 
 
+  
 }
 
-#b {
- 
+.choices input{
+    display: none;
 }
 
-#c {
 
-}
 
-#d {
 
-}
+
+
+
+
+
 
 .footer-wrapper {
   display: flex;

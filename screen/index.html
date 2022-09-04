@@ -8,13 +8,18 @@
   <title>Quiz Desktop1</title>
 </head>
 <body>
+  <div class="correct-result-wrapper">
+    <div class="result-correctly">正</div>
+    <div class="correct-result">(答え: A)</div>
+  </div>
+
   <div class="quiz">
     <div class="header">
 
       <div class="header-contents">
-        <div class="num-quiz">Q1</div>
-        <div class="name">Quiz INIAD</div>
-        <div class="score">0 points</div>
+        <div class="num-quiz">Q 01</div>
+        <div class="name">Quiz</div>
+        <div class="score">0 pt</div>
       </div>
       <div class="timer-wrapper">
         <div class="timer">タイマーゲージ</div>
@@ -24,10 +29,12 @@
 
     <div class="main">
    
-      <div class="result-wrapper">
+     
+      <!--div class="result-wrapper">
         <div class="result">正解</div>
         <div class="correct-result">(答え: A)</div>
-      </div>
+        <div class="incorrect-result">不正解</div>
+      </div-->
 
       <div class="quiz-sentence-wrapper">
         <div class="quiz-head">問題</div>
@@ -39,10 +46,10 @@
 
 
       <div class="choices">
-        <div id="a">A: ジョージ・マロリー</div>
-        <div id="b">B: 植村直己</div>
-        <div id="c">C: ニルマル・プルジャ</div>
-        <div id="d">D: 野口健</div>
+        <input type="radio" checked id="a" name="choice"><label for="a"> A: ジョージ・マロリー</label>
+        <input type="radio" checked id="b" name="choice"><label for="b"> B: 植村直己</label>
+        <input type="radio" checked id="c" name="choice"><label for="c"> C: ニルマル・プルジャ</label>
+        <input type="radio" checked id="d" name="choice"><label for="d"> D: 野口健</label>
       </div>
         
 
@@ -52,7 +59,12 @@
     <div class="footer-wrapper">
       <div class="footer"> ©︎ 2022 </div>
     </div>
+    
+  </div>
 
+  <div class="incorrect-result-wrapper">
+    <div class="correct-result">(答え: A)</div>
+    <div class="result-incorrectly">誤</div>
   </div>
 </body>
 </html>
