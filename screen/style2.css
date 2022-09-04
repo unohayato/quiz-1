@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(234, 185, 185);
+  background-color: #ffcf0e;
   overflow: hidden;
   min-height: 100vh;
   min-width: 100vh;
@@ -53,7 +53,7 @@ body::after {
   margin-top: 2.5vh;
   height: 15%;
   border-radius: 15px;
-  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.5);
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
   background: rgba( 255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 
@@ -86,7 +86,7 @@ body::after {
   align-items: center;
   height: 20%;
 
-
+  border-radius: 15px;
 
   background: rgba( 255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
@@ -110,7 +110,7 @@ body::after {
   height: 15%;
 
   border-radius: 15px;
-  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.5);
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
   background: rgba( 255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 
@@ -130,7 +130,7 @@ body::after {
   height: 15%;
 
   border-radius: 15px;
-  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.5);
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
   background: rgba( 255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 
@@ -166,7 +166,7 @@ body::after {
   height: 60%;
 
   border-radius: 15px;
-  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.5);
+  box-shadow: 20px 20px 50px rgba( 0, 0 , 0, 0.3);
   background: rgba( 255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
 
@@ -207,4 +207,5 @@ body::after {
 }
 .footer {
   text-align: center;
+  padding-bottom: 10px;
 }
