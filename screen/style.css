@@ -18,12 +18,13 @@ body {
 }
 
 .header {
-
+ background-color: white;
 }
 
 .header-contents {
  display: flex;
  justify-content: space-around;
+
  
 }
 
@@ -45,4 +46,56 @@ body {
 }
 .timer {
 
+}
+
+.main {
+  background-color: pink;
+}
+
+.main-contents {
+
+
+
+}
+
+.result {
+  text-align: center;
+}
+
+.quiz-sentence {
+  text-align: center;
+}
+
+.choices {
+  display: flex; /* flexbox */
+	flex-wrap: wrap; /* 折返し指定 */
+ 
+
+}
+
+.choices div {
+  width: 50%;
+  text-align: left;
+  padding-left: 20%;
+}
+
+#a {
+
+}
+
+#b {
+
+}
+
+#c {
+
+}
+
+#d {
+
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
 }
